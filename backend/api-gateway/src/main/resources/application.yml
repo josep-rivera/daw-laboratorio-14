@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+
+        - id: categoria-service
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/categorias/**
+
+        - id: producto-service
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/productos/**
