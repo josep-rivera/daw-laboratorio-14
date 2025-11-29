@@ -1,0 +1,10 @@
+INSERT INTO categorias (nombre) VALUES ('Tecnología');
+INSERT INTO categorias (nombre) VALUES ('Electrodomésticos');
+INSERT INTO categorias (nombre) VALUES ('Hogar');
+INSERT INTO categorias (nombre) VALUES ('Ropa');
+INSERT INTO categorias (nombre) VALUES ('Juguetes');
+INSERT INTO categorias (nombre) VALUES ('Mascotas');
+INSERT INTO categorias (nombre) VALUES ('Limpieza');
+INSERT INTO categorias (nombre) VALUES ('Salud');
+INSERT INTO categorias (nombre) VALUES ('Belleza');
+INSERT INTO categorias (nombre) VALUES ('Herramientas');
