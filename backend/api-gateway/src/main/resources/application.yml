@@ -21,11 +21,3 @@ spring:
             - Path=/api/productos/**
           filters:
             - StripPrefix=1
-
-      globalcors:
-        corsConfigurations:
-          '[/**]':
-            allowedOrigins: "*"
-            allowedMethods: "*"
-            allowedHeaders: "*"
-
